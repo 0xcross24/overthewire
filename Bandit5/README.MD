@@ -4,7 +4,7 @@ The password for the next level is stored in a file somewhere under the inhere d
     1033 bytes in size
     not executable
 
-
+```
 ssh bandit5@bandit.labs.overthewire.org -p 2220
 
 bandit5@bandit:~/inhere$ ls
@@ -24,3 +24,4 @@ bandit5@bandit:~/inhere$ find . -type f -size 1033c ! -executable -exec file {} 
 ./maybehere07/.file2: ASCII text, with very long lines (1000)
 bandit5@bandit:~/inhere$ cat ./maybehere07/.file2
 P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+```

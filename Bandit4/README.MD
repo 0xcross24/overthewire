@@ -1,5 +1,5 @@
 The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
-
+```
 ssh bandit4@bandit.labs.overthewire.org -p 2220
 
 bandit4@bandit:~$ ls
@@ -34,3 +34,4 @@ bandit4@bandit:~/inhere$ file ./*
 ./-file09: Non-ISO extended-ASCII text, with no line terminators
 bandit4@bandit:~/inhere$ cat ./-file07
 lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+```
